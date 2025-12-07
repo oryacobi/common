@@ -30,7 +30,7 @@ jobs:
         run: isort --check-only .
 
       - name: Lint with Ruff
-        run: ruff .
+        run: ruff check .
 
       - name: Run tests
         run: python -m pytest
