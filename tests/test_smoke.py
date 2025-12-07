@@ -1,5 +1,6 @@
 """Basic smoke tests for the common package."""
 
+
 def test_import_common():
     import common
 

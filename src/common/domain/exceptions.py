@@ -3,4 +3,3 @@
 
 class DomainValueError(ValueError):
     """Raised when value object inputs violate invariants."""
-
