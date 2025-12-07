@@ -2,8 +2,8 @@
 
 import pytest
 
-from common.infrastructure.config import get_env_var
 from common.domain import InfrastructureError
+from common.infrastructure.config import get_env_var
 
 
 def test_get_env_var_returns_value(monkeypatch):
